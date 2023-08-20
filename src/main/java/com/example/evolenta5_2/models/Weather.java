@@ -23,8 +23,12 @@ public class Weather {
     @NonNull
     private String description;
 
-    public Weather(@NonNull String name, @NonNull String description) {
+    @NonNull
+    private int temp;
+
+    public Weather(@NonNull String name, @NonNull String description, @NonNull int temp) {
         this.name = name;
         this.description = description;
+        this.temp = temp;
     }
 }
