@@ -24,9 +24,9 @@ public class Weather {
     private String description;
 
     @NonNull
-    private int temp;
+    private double temp;
 
-    public Weather(@NonNull String name, @NonNull String description, @NonNull int temp) {
+    public Weather(@NonNull String name, @NonNull String description, @NonNull double temp) {
         this.name = name;
         this.description = description;
         this.temp = temp;
